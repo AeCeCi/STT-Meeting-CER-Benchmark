@@ -1,0 +1,15 @@
+{
+  "run_started_at": "2026-10-13T11:16:33+09:00",
+  "manifest": "evaluation\\manifest_B_meeting.csv",
+  "engines": [
+    "clova",
+    "azure",
+    "whisper",
+    "google",
+    "assemblyai"
+  ],
+  "script_commit": "c510cde",
+  "python": "3.13.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "run_finished_at": "2026-10-13T15:26:08+09:00"
+}

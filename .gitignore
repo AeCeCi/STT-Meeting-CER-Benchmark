@@ -1,0 +1,27 @@
+# API keys / credentials
+.env
+.env.*
+!.env.example
+secrets/*
+!secrets/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local artefacts
+*.log
+*.zip
+*.tmp
+.idea/
+.DS_Store
+Thumbs.db
+
+# AI Hub KconfSpeech corpus (audio + reference transcripts) — never committed (licence terms)
+evaluation/speech_data/
+
+# Transcript-level outputs — contain corpus transcripts and raw engine responses, never committed
+evaluation/results/**/stt_model_transcripts_and_cer_details.csv
+evaluation/results/**/raw/

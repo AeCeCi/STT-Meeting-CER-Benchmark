@@ -1,0 +1,4 @@
+python-dotenv>=1.0.1
+# Google Speech-to-Text v2 (service-account token refresh)
+google-auth>=2.29.0
+requests>=2.31.0
